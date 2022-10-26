@@ -25,4 +25,21 @@
          url('../fonts/overpass-v12-latin-700.svg#Overpass') format('svg'); /* Legacy iOS */
   }
 
-  
+  *, *::before, *::after {
+     box-sizing: border-box;
+   }
+
+   * {
+     margin: 0;
+   }
+
+   html, body {
+     height: 100%;
+   }
+
+   img, picture, svg {
+     display: block;
+     max-width: 100%;
+   }
+
+   
