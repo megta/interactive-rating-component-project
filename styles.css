@@ -37,9 +37,106 @@
      height: 100%;
    }
 
+   body {
+    background-color: hsl(216, 12%, 8%);
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+   }
+
    img, picture, canvas, svg {
      display: block;
      max-width: 100%;
    }
 
-   
+   form {
+    max-width: 375px;
+    min-height: 300px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 10px;
+    padding: 20px;
+   }
+
+   .ratingcard {
+    border-style: none;
+    font-family: 'Overpass';
+   }
+
+   legend {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: hsl(0, 0%, 100%);
+   }
+
+   .ratingcard__description {
+    font-weight: 400;
+    font-size: 0.938rem;
+    color: hsl(217, 12%, 63%);
+   }
+
+   .ratingcard__btn-grp {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+   }
+
+   .ratingcard__btn {
+    font-family: 'Overpass';
+    font-weight: 400;
+    font-size: 1rem;
+   }
+
+   .ratingcard__submit {
+    font-family: 'Overpass';
+    font-weight: 400;
+    font-size: 1rem;
+    width: 100%;
+    height: auto;
+    border-style: none;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+   }
+
+   .ratingcard__submit:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+   }
+
+   .thankcard {
+    max-width: 375px;
+    min-height: 300px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 10px;
+    padding: 30px;
+    font-family: 'Overpass';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+   .thankcard__sel-rating {
+    font-weight: 400;
+    font-size: 0.938rem;
+    color: hsl(25, 97%, 53%);
+   }
+
+   .thankcard__word {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: hsl(0, 0%, 100%);
+   }
+
+   .thankcard__para {
+    font-weight: 400;
+    font-size: 0.938rem;
+    color: hsl(217, 12%, 63%);
+    text-align: center;
+   }
+
+   .attribution {
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+   }
