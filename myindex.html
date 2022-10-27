@@ -11,26 +11,30 @@
 
 <body>
   
-  <form>
+  <form action="" method="POST">
   <!-- Rating state start -->
 
-  <p>How did we do?</p>
+  <fieldset>
+    <legend>How did we do?</legend>
 
-  <p>Please let us know how we did with your support request. All feedback is appreciated 
+    <p>Please let us know how we did with your support request. All feedback is appreciated 
   to help us improve our offering!</p>
 
-  <button type="button">1</button> 
-  <button type="button">2</button>
-  <button type="button">3</button>
-  <button type="button">4</button> 
-  <button type="button">5</button>
-  
+    <ul>
+      <li><button type="button" name="1" value="1">1</button></li>
+      <li><button type="button" name="2" value="2">2</button></li>
+      <li><button type="button" name="3" value="3">3</button></li>
+      <li><button type="button" name="4" value="4">4</button></li>
+      <li><button type="button" name="5" value="5">5</button></li>
+    </ul>
 
-  <button type="submit">Submit</button>
+  </fieldset>
+
+  <button type="submit" name="submit">Submit</button>
 
   <!-- Rating state end -->
 
-</form>
+  </form>
 
   <!-- Thank you state start -->
 
