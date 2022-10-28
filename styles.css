@@ -115,17 +115,19 @@
     cursor: pointer;
    }
 
+   .ratingcard__btn:checked {
+    background-color: hsl(216, 12%, 54%);
+   }
+   
    .ratingcard__btn:hover {
     background-color: hsl(25, 97%, 53%);
-   }
-
-   .ratingcard__btn:active {
-    background-color: hsl(216, 12%, 54%);
    }
 
    label:hover, label:active {
     color: hsl(0, 0%, 100%);
    }
+
+ 
 
    .ratingcard__submit {
     font-family: 'Overpass';
