@@ -115,7 +115,7 @@
     cursor: pointer;
    }
 
-   .ratingcard__btn:checked {
+   input[type="radio"]:checked + label {
     background-color: hsl(216, 12%, 54%);
    }
 
