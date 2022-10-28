@@ -99,11 +99,27 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: hsl(216, 12%, 54%);
+    background-color: hsl(216, 12%, 24%);
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+   }
+
+   label {
+    font-family: 'Overpass';
+    font-weight: 400;
+    font-size: 0.938rem;
+    color: hsl(217, 12%, 63%);
+   }
+
+   input[type="radio"]:hover {
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+   }
+
+   label:hover {
+    color: hsl(0, 0%, 100%);
    }
 
    .ratingcard__submit {
