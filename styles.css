@@ -51,13 +51,13 @@
 
    .ratingcard { 
     background-color: hsl(213, 19%, 18%);
-    border-radius: 10px;
-    padding: 20px;
    }
 
-   .ratingcard--size {
+   .card--size {
     max-width: 375px;
-    height: 350px;
+    height: 340px;
+    border-radius: 10px;
+    padding: 20px;
    }
 
    .ratingcard__fieldset {
@@ -91,7 +91,7 @@
   .ratingcard__btn-grp {
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
+    margin-top: 30px;
   }
 
    .ratingcard__btn {
@@ -107,7 +107,6 @@
     left: 25px;
    }
 
-
    .ratingcard__submit {
     font-family: 'Overpass';
     font-weight: 400;
@@ -119,6 +118,7 @@
     padding: 10px;
     background-color: hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
+    margin-top: 33px;
    }
 
    .ratingcard__submit:hover {
@@ -129,8 +129,6 @@
 
    .thankcard {
     background-color: hsl(213, 19%, 18%);
-    border-radius: 10px;
-    padding: 30px;
     font-family: 'Overpass';
     display: flex;
     flex-direction: column;
@@ -139,18 +137,21 @@
 
    .thankcard::before {
     content: url(images/illustration-thank-you.svg);
+    margin-top: 20px;
    }
 
    .thankcard__sel-rating {
     font-weight: 400;
     font-size: 0.938rem;
     color: hsl(25, 97%, 53%);
+    padding-top: 20px;
    }
 
    .thankcard__word {
     font-weight: 700;
     font-size: 1.5rem;
     color: hsl(0, 0%, 100%);
+    padding-top: 20px;
    }
 
    .thankcard__para {
@@ -158,6 +159,7 @@
     font-size: 0.938rem;
     color: hsl(217, 12%, 63%);
     text-align: center;
+    padding-top: 20px;
    }
 
    .attribution {
