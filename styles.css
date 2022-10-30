@@ -148,7 +148,7 @@
    }
 
    .thankcard {
-    background: linear-gradient(hsl(213, 19%, 18%), hsl(216, 12%, 15%));
+    background: linear-gradient(hsl(213, 19%, 18%), hsl(216, 12%, 12%));
     font-family: 'Overpass';
     display: flex;
     flex-direction: column;
