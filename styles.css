@@ -73,8 +73,18 @@
     padding: 20px 0px 0px 0px;
    }
 
-   .ratingcard::before {
-    content: url(images/icon-star.svg);
+   .ratingcard__circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: hsl(216, 12%, 24%);
+    position: relative;
+   }
+
+   .ratingcard__icon {
+    position: absolute;
+    top: 15px;
+    left: 15px;
    }
 
    .ratingcard__description {
