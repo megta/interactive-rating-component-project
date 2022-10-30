@@ -157,7 +157,7 @@
 
    .thankcard::before {
     content: url(images/illustration-thank-you.svg);
-    margin-top: 10px;
+    margin-top: 15px;
    }
 
   .thankcard--background {
@@ -165,7 +165,7 @@
     height: 30px;
     background-color: hsl(216, 12%, 24%);
     border-radius: 20px;
-    margin-top: 20px;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -182,7 +182,7 @@
     font-weight: 700;
     font-size: 1.5rem;
     color: hsl(0, 0%, 100%);
-    padding-top: 20px;
+    padding-top: 30px;
    }
 
    .thankcard__para {
@@ -190,7 +190,7 @@
     font-size: 0.938rem;
     color: hsl(217, 12%, 63%);
     text-align: center;
-    padding-top: 15px;
+    padding-top: 20px;
    }
 
    .attribution {
