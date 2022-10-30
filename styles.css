@@ -89,10 +89,12 @@
    }
 
   .ratingcard__btn-grp {
+    list-style-type: none;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 30px;
+    padding: 0px;
   }
 
    .ratingcard__btn {
@@ -114,21 +116,6 @@
     color: hsl(217, 12%, 63%);
     cursor: pointer;
    }
-
-   input[type="radio"]:checked + label {
-    background-color: hsl(216, 12%, 54%);
-   }
-
-   /*
-   .ratingcard__btn:hover {
-    background-color: hsl(25, 97%, 53%);
-   }
-
-   label:hover, label:active {
-    color: hsl(0, 0%, 100%);
-   }
-   */
-
 
    .ratingcard__submit {
     font-family: 'Overpass';
