@@ -50,7 +50,7 @@
    }
 
    .ratingcard { 
-    background-color: hsl(213, 19%, 18%);
+    background: linear-gradient(hsl(213, 19%, 18%), hsl(216, 12%, 15%));
    }
 
    .card--size {
@@ -148,7 +148,7 @@
    }
 
    .thankcard {
-    background-color: hsl(213, 19%, 18%);
+    background: linear-gradient(hsl(213, 19%, 18%), hsl(216, 12%, 15%));
     font-family: 'Overpass';
     display: flex;
     flex-direction: column;
