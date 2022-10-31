@@ -138,11 +138,19 @@
    }
 
 
-   input:checked + label {
+   input:checked ~ .ratingcard__btn {
+    background-color: hsl(217, 12%, 63%);
+   }
+
+   input:checked ~ .ratingcard__btn label {
     color: hsl(0, 0%, 100%);
    }
 
-   input:hover + label {
+   input:hover ~ .ratingcard__btn {
+    background-color: hsl(25, 97%, 53%);
+   }
+
+   input:hover ~ .ratingcard__btn label {
     color: hsl(0, 0%, 100%);
    }
 
