@@ -2,7 +2,7 @@
 
 const ratingCard = document.querySelector('.ratingcard');
 const thankCard = document.querySelector('.thankcard');
-const submit = document.querySelector('.ratingcard__submit');
+const form = document.querySelector('form');
 
 function hideCard() {
 if(thankCard) {
@@ -18,4 +18,4 @@ function thanks(event) {
 }
 
 hideCard();
-submit.addEventListener('click', thanks);
+form.addEventListener('submit', thanks);
