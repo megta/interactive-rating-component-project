@@ -127,6 +127,14 @@
     cursor: pointer;
    }
 
+   input[type="radio"]:checked + .ratingcard__btn {
+    background-color: hsl(217, 12%, 63%);
+   }
+
+   input[type="radio"]:checked + label {
+    color: hsl(0, 0%, 100%);
+   }
+
    .ratingcard__submit {
     font-family: 'Overpass';
     font-weight: 400;
