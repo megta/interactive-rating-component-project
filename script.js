@@ -19,4 +19,4 @@ function thanks(event) {
 }
 
 hideCard();
-submit.addEventListener("click", thanks);
+submit.addEventListener('click', thanks);
