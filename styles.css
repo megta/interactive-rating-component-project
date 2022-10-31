@@ -132,6 +132,10 @@
     cursor: pointer;
    }
 
+   .ratingcard__btn:has(input:checked) {
+    background-color:  hsl(217, 12%, 63%);
+   }
+
    .ratingcard__btn:hover {
     background-color: hsl(25, 97%, 53%);
    }
