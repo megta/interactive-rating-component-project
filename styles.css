@@ -112,7 +112,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    
     position: relative;
    }
 
@@ -122,6 +121,7 @@
     font-size: 0.938rem;
     color: hsl(217, 12%, 63%);
     cursor: pointer;
+    
    }
 
    input {
@@ -132,21 +132,21 @@
     cursor: pointer;
    }
 
-   .ratingcard__btn:has(input:checked) {
-    background-color:  hsl(217, 12%, 63%);
-   }
+  
 
-   .ratingcard__btn:hover {
+   /*.ratingcard__btn:hover {
     background-color: hsl(25, 97%, 53%);
    }
-   
+   */
 
    input:checked + label {
     color: hsl(0, 0%, 100%);
+    background-color: hsl(217, 12%, 63%);
    }
 
    input:hover + label {
     color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
    }
 
 
