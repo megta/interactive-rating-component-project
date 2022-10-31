@@ -10,12 +10,7 @@ if(thankCard) {
 }
 }
 
-function thanks(event) {
-    if(submit.clicked) {
-    
-    event.preventDefault();
-    }
-}
+
 
 hideCard();
-form.addEventListener('submit', thanks);
+form.addEventListener('submit', );
