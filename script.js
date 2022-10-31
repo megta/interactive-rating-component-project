@@ -1,17 +1,17 @@
 'use strict';
 
-const ratingcard = document.querySelector('.ratingcard');
-const thankcard = document.querySelector('.thankcard');
+const ratingCard = document.querySelector('.ratingcard');
+const thankCard = document.querySelector('.thankcard');
 const submit = document.querySelector('.ratingcard__submit');
 
 function hideCard() {
-thankcard.hidden = true;
+return thankCard.hidden = true;
 }
 
 function thanks() {
-    if (submit.clicked) {
-    ratingcard.hidden = true;
-    thankcard.hidden= false;
+    if(submit.clicked) {
+    ratingCard.hidden = true;
+    thankCard.hidden= false;
     }
 }
 
