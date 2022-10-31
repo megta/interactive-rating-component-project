@@ -10,7 +10,7 @@ if(thankCard) {
 }
 }
 
-
+// use classlist add and remove to show and hide the card
 
 hideCard();
 form.addEventListener('submit', );
