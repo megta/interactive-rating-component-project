@@ -5,13 +5,16 @@ const thankCard = document.querySelector('.thankcard');
 const submit = document.querySelector('.ratingcard__submit');
 
 function hideCard() {
-return thankCard.hidden = true;
+if(thankCard.hidden = false) {
+    thankCard.hidden = true;
+}
 }
 
-function thanks() {
+function thanks(event) {
     if(submit.clicked) {
     ratingCard.hidden = true;
     thankCard.hidden= false;
+    event.preventDefault();
     }
 }
 
