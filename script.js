@@ -5,8 +5,10 @@ const thankCard = document.querySelector('.thankcard');
 const form = document.querySelector('form');
 
 function hideCard() {
-if(thankCard) {
-    
+if(thankCard.classList.contains()) {
+    thankCard.classList.remove();
+} else {
+    thankCard.classList.add();
 }
 }
 
@@ -14,6 +16,9 @@ if(thankCard) {
 
 /* if cannot figure out how to use database then change button type to type=button
 instead of type=submit */
+
+
+
 
 hideCard();
 form.addEventListener('submit', );
