@@ -9,8 +9,6 @@ const submitBtn = document.querySelector('.ratingcard__submit'); //not sure to u
 function hideCard() {
 if(thankCard.classList.contains('card--toggle')) {
     thankCard.classList.remove('card--toggle');
-} else {
-    thankCard.classList.add('card--toggle');
 }
 }
 
@@ -23,6 +21,6 @@ instead of type=submit */
 // to use form data, can try label = .thankcard__number.value to get the rating num
 
 /*
-hideCard();
+submitBtn.addEventListener('click', hideCard);
 form.addEventListener('submit', );
 */
