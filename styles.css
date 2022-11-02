@@ -169,7 +169,7 @@
    }
 
    .thankcard {
-    background: linear-gradient(hsl(213, 19%, 18%), hsl(217, 12%, 63%));
+    background: linear-gradient(hsl(213, 19%, 18%), hsl(216, 12%, 15%));
     font-family: 'Overpass';
     display: flex;
     flex-direction: column;
@@ -188,7 +188,7 @@
    }
 
   .thankcard--background {
-    min-width: 170px;
+    min-width: 180px;
     height: 30px;
     background-color: hsl(216, 12%, 24%);
     border-radius: 20px;
@@ -200,12 +200,6 @@
   }
 
    .thankcard__sel-rating {
-    font-weight: 400;
-    font-size: 0.938rem;
-    color: hsl(25, 97%, 53%);
-   }
-
-   .thankcard__number {
     font-weight: 400;
     font-size: 0.938rem;
     color: hsl(25, 97%, 53%);
