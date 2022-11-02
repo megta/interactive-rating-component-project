@@ -179,6 +179,15 @@
     bottom: 250px;
    }
 
+    /* .thankcard {
+    display: none;
+   } 
+   
+   .thankcard.ratingcard__submit {
+    display: ;
+   
+   */
+
    .thankcard::before {
     content: url(images/illustration-thank-you.svg);
     margin-top: 15px;
@@ -222,12 +231,6 @@
     text-align: center;
     padding-top: 20px;
    }
-
-   /*
-   .card--toggle {
-    display: none;
-   }
-   */
 
    .attribution {
     text-align: center;
