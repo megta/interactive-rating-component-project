@@ -17,6 +17,7 @@ if(thankCard.classList.contains()) {
 /* if cannot figure out how to use database then change button type to type=button
 instead of type=submit */
 
+// to use form data, can try label = .thankcard__number.value to get the rating num
 
 
 
