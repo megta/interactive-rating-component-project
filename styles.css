@@ -177,7 +177,6 @@
     align-items: center;
     position: absolute;
     bottom: 250px;
-    
    }
 
    .thankcard::before {
@@ -198,6 +197,12 @@
   }
 
    .thankcard__sel-rating {
+    font-weight: 400;
+    font-size: 0.938rem;
+    color: hsl(25, 97%, 53%);
+   }
+
+   .thankcard__number {
     font-weight: 400;
     font-size: 0.938rem;
     color: hsl(25, 97%, 53%);
