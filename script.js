@@ -7,11 +7,12 @@ const thankCard = document.querySelector('.thankcard');
 
 ratingCard.addEventListener('submit', (e) => {
     e.preventDefault();
-    thankCard.style.display = block;
+    thankCard.style.display = 'block';
 
     const ratingOption = document.querySelector('input:checked').value;
     let ratingNum = document.querySelector('.thankcard__number') + ratingOption;
 
+    return ratingNum;
 });
 
 
