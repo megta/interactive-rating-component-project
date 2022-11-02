@@ -180,11 +180,11 @@
    }
 
     /* .thankcard {
-    display: none;
+    display: none; or visibility: hidden;
    } 
    
    .thankcard.ratingcard__submit {
-    display: ;
+    display: ; or visibility: visible;
    
    */
 
