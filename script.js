@@ -7,8 +7,8 @@ const form = document.querySelector('form');
 const submitBtn = document.querySelector('.ratingcard__submit'); //not sure to use it
 
 function hideCard() {
-if(thankCard.classList.contains('card--toggle')) {
-    thankCard.classList.remove('card--toggle');
+if(thankCard.classList.contains('.ratingcard__submit')) {
+    thankCard.classList.remove('.ratingcard__submit');
 }
 }
 
