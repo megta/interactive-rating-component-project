@@ -13,7 +13,7 @@ if(thankCard.classList.contains('.ratingcard__submit')) {
 }
 
 */
-// use classlist add and remove to show and hide the card
+
 
 /* if cannot figure out how to use database then change button type to type=button
 instead of type=submit */
@@ -22,5 +22,12 @@ instead of type=submit */
 
 /*
 submitBtn.addEventListener('click', hideCard);
-form.addEventListener('submit', );
+form.addEventListener('submit', (event) => {
+event.preventDefault();
+
+const ratingOption = document.querySelector('.ratingcard__btn').value;
+let ratingNum = document.querySelector('.thankcard__number');
+
+
+});
 */
