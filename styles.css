@@ -220,3 +220,19 @@
     text-align: center;
     color: hsl(0, 0%, 100%);
    }
+
+
+   @media (max-width: 600px) {
+     body {
+        display: flex;
+        flex-direction: column;
+        
+        
+      }
+
+   }
+
+   @media (min-width: px) {
+
+
+  }
