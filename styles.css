@@ -39,9 +39,7 @@
 
    body {
     background-color: hsl(216, 12%, 8%);
-    margin: 30px;
-    display: flex;
-    flex-direction: column;
+  
    }
 
    img, picture, canvas, svg {
@@ -51,11 +49,13 @@
 
    .ratingcard { 
     background: linear-gradient(hsl(213, 19%, 18%), hsl(216, 12%, 15%));
+    z-index: 2;
+    position: relative;
    }
 
    .card--size {
     max-width: 375px;
-    height: 400px;
+    max-height: 400px;
     border-radius: 10px;
     padding: 30px 20px 30px 20px;
    }
@@ -112,7 +112,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    
     position: relative;
    }
 
@@ -171,11 +170,14 @@
    }
 
    .thankcard {
-    background: linear-gradient(hsl(213, 19%, 18%), hsl(216, 12%, 12%));
+    background: linear-gradient(hsl(213, 19%, 18%), hsl(217, 12%, 63%));
     font-family: 'Overpass';
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: absolute;
+    bottom: 250px;
+    
    }
 
    .thankcard::before {
@@ -219,20 +221,31 @@
    .attribution {
     text-align: center;
     color: hsl(0, 0%, 100%);
+    margin-top: 20px;
    }
 
 
-   @media (max-width: 600px) {
-     body {
-        display: flex;
-        flex-direction: column;
-        
-        
-      }
+  @media (max-width: 599px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+  }
 
-   }
+  }
 
-   @media (min-width: px) {
+  
+
+   @media (min-width: 600px) {
+    body {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      grid-template-rows: repeat(6, 1fr);
+      gap: 10px;
+    }
+
 
 
   }
