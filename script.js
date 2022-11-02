@@ -7,6 +7,7 @@ ratingCard.addEventListener('submit', (e) => {
     e.preventDefault();
     thankCard.style.zIndex = '3';
     thankCard.style.display = 'flex';
+    ratingCard.style.display = 'none';
 
     const ratingOption = document.querySelector('input:checked').value;
 
