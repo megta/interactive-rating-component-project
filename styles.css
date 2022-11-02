@@ -49,8 +49,7 @@
 
    .ratingcard { 
     background: linear-gradient(hsl(213, 19%, 18%), hsl(216, 12%, 15%));
-    z-index: 2;
-    position: relative;
+   
    }
 
    .card--size {
@@ -175,17 +174,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: absolute;
-    bottom: 250px;
+    display: none;
    }
 
-    /* .thankcard {
-    display: none; or visibility: hidden;
-   } 
-   
+    /*
    .thankcard.ratingcard__submit {
     display: ; or visibility: visible;
-   
    */
 
    .thankcard::before {
