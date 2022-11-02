@@ -2,17 +2,23 @@
 
 const ratingCard = document.querySelector('.ratingcard');
 const thankCard = document.querySelector('.thankcard');
-// const submitBtn = document.querySelector('.ratingcard__submit'); not sure to use it
-
 
 ratingCard.addEventListener('submit', (e) => {
     e.preventDefault();
-    thankCard.style.display = 'block';
+    thankCard.style.zIndex = '3';
+    thankCard.style.display = 'flex';
 
     const ratingOption = document.querySelector('input:checked').value;
-    let ratingNum = document.querySelector('.thankcard__number') + ratingOption;
 
-    return ratingNum;
+    const paraRating = document.createElement('p');
+    let chosenRating = document.createTextNode(`You selected ${ratingOption} out of 5`);
+    
+    paraRating.append(chosenRating);
+    paraRating.classList.add('thankcard__sel-rating');
+
+    const thankBackground = document.querySelector('.thankcard--background');
+    thankBackground.append(paraRating);
+
 });
 
 
