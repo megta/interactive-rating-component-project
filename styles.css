@@ -236,7 +236,7 @@
    }
 
 
-  @media (max-width: 599px) {
+  @media (max-width: 899px) {
   body {
     display: flex;
     flex-direction: column;
@@ -247,14 +247,27 @@
   }
 
 
-   @media (min-width: 600px) {
+   @media (min-width: 900px) {
     body {
       display: grid;
       grid-template-columns: repeat(12, 1fr);
-      grid-template-rows: repeat(6, 1fr);
+      grid-template-rows: repeat(8, 1fr);
       gap: 10px;
     }
 
+    .attribution {
+      grid-row: 7 / 8;
+      grid-column: 5 / 9;
+    }
 
+    .ratingcard {
+      grid-row: 3 / 7;
+      grid-column: 5 / 9;
+    }
+
+    .thankcard {
+      grid-row: 3 / 7;
+      grid-column: 5 / 9;
+    }
 
   }
