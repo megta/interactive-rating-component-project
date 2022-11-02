@@ -223,6 +223,13 @@
     padding-top: 20px;
    }
 
+   .card--toggle {
+    display: none;
+   }
+
+
+
+
    .attribution {
     text-align: center;
     color: hsl(0, 0%, 100%);
@@ -238,10 +245,8 @@
     align-items: center;
     padding: 30px 0px;
   }
-
   }
 
-  
 
    @media (min-width: 600px) {
     body {
