@@ -4,6 +4,7 @@
 const ratingCard = document.querySelector('.ratingcard');
 const thankCard = document.querySelector('.thankcard');
 const form = document.querySelector('form');
+const submitBtn = document.querySelector('.ratingcard__submit'); //not sure to use it
 
 function hideCard() {
 if(thankCard.classList.contains('card--toggle')) {
