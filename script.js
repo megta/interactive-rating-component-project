@@ -6,10 +6,10 @@ const thankCard = document.querySelector('.thankcard');
 const form = document.querySelector('form');
 
 function hideCard() {
-if(thankCard.classList.contains()) {
-    thankCard.classList.remove();
+if(thankCard.classList.contains('card--toggle')) {
+    thankCard.classList.remove('card--toggle');
 } else {
-    thankCard.classList.add();
+    thankCard.classList.add('card--toggle');
 }
 }
 
