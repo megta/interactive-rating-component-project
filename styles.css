@@ -255,16 +255,19 @@
     .attribution {
       grid-row: 7 / 8;
       grid-column: 5 / 9;
+      margin: 0 auto;
     }
 
     .ratingcard {
       grid-row: 3 / 7;
       grid-column: 5 / 9;
+      margin: 0 auto;
     }
 
     .thankcard {
       grid-row: 3 / 7;
       grid-column: 5 / 9;
+      margin: 0 auto;
     }
 
   }
